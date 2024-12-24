@@ -2,28 +2,10 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+*.xml
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
+git rm --cached .idea/misc.xml
+git rm --cached .idea/modules.xml
+git rm --cached .idea/uiDesigner.xml
+git rm --cached .idea/vcs.xml
+git rm --cached lab4.var_5.iml
