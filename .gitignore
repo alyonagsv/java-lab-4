@@ -3,9 +3,9 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 *.xml
-
-git rm --cached .idea/misc.xml
-git rm --cached .idea/modules.xml
-git rm --cached .idea/uiDesigner.xml
-git rm --cached .idea/vcs.xml
-git rm --cached lab4.var_5.iml
+ .idea/misc.xml
+ .idea/modules.xml
+ .idea/uiDesigner.xml
+ .idea/vcs.xml
+ lab4.var_5.iml
+#git rm --cached lab4.var_5.iml
